@@ -22,7 +22,7 @@ public class Assignment1B {
 		System.out.println("The monthly interest payment is $" + monthly_payment);
 		
 		double total = (monthly_payment * total_month) ;
-		System.out.printf("The total payment is $" + total);
+		System.out.println("The total payment is $" + total);
 		
 	}
 
