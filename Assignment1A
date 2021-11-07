@@ -11,6 +11,7 @@ public class Assignment1A {
 		System.out.println("Enter the number of items: ");
 		int a = sc.nextInt();
 		
+		//Scanner
 		System.out.println("Enter the price of first item: RM");
 		int b = sc.nextInt();
 		System.out.println("Enter the quantity of first item: ");
@@ -29,18 +30,19 @@ public class Assignment1A {
 		int g = sc.nextInt();
 		System.out.println();
 		
+		//declaration
 		int total_first_item = b * c;
 		int total_second_item =d * e;
 		int total_third_item = f * g;
 		
 		int total = (total_first_item + total_second_item + total_third_item);
-		double total1 = total;
+		double total1 = total;  //data conversion
 		
 		System.out.printf("Total price        : RM" + total1);
 		System.out.println();
 		double discount_price = 0;
 
-		
+		//if statement
 		if(total>100) {
 			discount_price = total * 20/100;
 			System.out.println("Discount received  : RM" + discount_price);
